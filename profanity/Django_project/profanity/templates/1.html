@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <style>
+          h1{
+                color: darkblue;
+                 margin-left: 330px;
+          }
+          h2{
+                margin-left: 330px;
+                color: brown;
+          }
+          body{
+            background-color: lightgrey;
+
+          }
+        
+             button {
+              padding: 12px 24px; 
+              font-size: 50px;
+            
+          }
+          form{
+            font-size: 50px;
+            text-align: center;
+          }
+          input[type="text"]{
+            box-sizing: border-box; 
+            width: 80%;
+            padding: 12px;
+            border: 2px solid #ccc; 
+            border-radius: 4px; 
+            font-size: 16px;
+
+          }
+          img{
+            height:350px;
+            width: 350px;
+            margin-left: 550px;
+          }
+          p{
+            font-size: 50px;
+            margin-left: 280px;
+            color: green;
+          }
+        </style>
+    </head>
+    {% load static %}
+    <link rel = "stylesheet" href = "{% static 'style.css' %}">
+    <body>
+      {% csrf_token %}
+      {% block content %}
+        <h1> WELCOME TO THE PROFANITY FILTERING MINI PROJECT</h1><br>
+        <p>---"""FREEDOM TO EXPRESS THOUGHTS"""---</p>
+        <h2>1.THE MAIN OBJECTIVES OF THE PROJECT ARE:</h2>
+        <h2>2.THIS PROGRAM IS DEVELOPED IN DJANGO FRAMEWORK TO CENSOR THE SWEAR WORDS</h2>
+    <h2> 3.COMMENTS THAT ARE IMPOSED ON OTHER PERSON</h2><br><br>
+    
+    <h1> <hr></h1> 
+   <h1> POST: </h1>          
+    <br>
+   
+    <img src="{% static 'image.jpg' %}" alt="My image"><br><br><br><br>
+
+    <h1> COMMENTS: </h1> <br><br>
+      <form action = "profanity" method = "GET" autocomplete = "off"> 
+        
+        ENTER YOUR NAME:    <input type="text" name = "name"><br><br>
+        ENTER YOUR COMMENT:    <input type="text" name = "comment"><br><br>
+        <button type="submit">SUBMIT</button><br><br>
+      </form> 
+        {% endblock %} 
+    </body>
+</html>
