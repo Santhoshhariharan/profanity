@@ -61,3 +61,11 @@ This mini project is licensed under the [MIT License](LICENSE). You are free to 
 ## Acknowledgments
 
 This project was inspired by the need for a simple profanity filtering solution. Special thanks to the developers of the profanity-check library for their contributions to the profanity word list used in this project.
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/e18fab1c-af73-4431-951d-2d5c26752395)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/01e36989-4378-4843-9fec-d619caa1064b)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/b5a23078-438a-4c8e-aaa0-33c2ab2f686c)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/ae5e0a4c-b391-4855-81c9-d05de34989cf)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/d82f5846-83a7-4522-932e-53cacc5dd4af)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/644ccd22-0d19-4837-908f-e37b2c5e92d2)
+![image](https://github.com/Santhoshhariharan/profanity/assets/104808335/a9beaf90-e07a-44af-a5b0-d0e4173659bd)
+
